@@ -54,3 +54,11 @@ console.log(Object.values(tinderUSer));//[ '123abc', 'Sammy', false ]
 console.log(Object.entries(tinderUSer)); //[ [ 'id', '123abc' ], [ 'name', 'Sammy' ], [ 'isLoggedIn', false ] ]
 
 console.log(tinderUSer.hasOwnProperty('isLoggedIn'));//true
+
+//object destuctoring
+
+const {courseInstructor : instuctor} = course 
+
+//console.log(courseInstructr);
+console.log(instuctor);  //insted of above we can use this
+
