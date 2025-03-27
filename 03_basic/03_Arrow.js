@@ -48,7 +48,7 @@ const addTwo = (num1 , num2) => { //if we add {} we have to write return word, (
 //const addTwo = (num1 , num2) => num1+num2; //same  as above
 
 //implicit way - without return
-const addTwo = (num1 , num2) =>( num1+num2) //same as above
+//const addTwo = (num1 , num2) =>( num1+num2) //same as above
 
 //with object
 const addTwo = (num1 , num2) => ({usernmae:"asbd"})
